@@ -21,7 +21,7 @@
 					</div>
 
 					<div>
-						<img class="w-full" src="hero.svg" alt="" />
+						<img class="w-full" src="hero.png" alt="" />
 					</div>
 				</div>
 			</div>
@@ -129,7 +129,7 @@
 
 	<Slide>
 		<div class="flex flex-col h-[400px] items-center justify-center">
-			<img src="languages.svg" class="mt-16 h-[28rem]" alt="" />
+			<img src="languages.png" class="mt-16 h-[28rem]" alt="" />
 		</div>
 	</Slide>
 
