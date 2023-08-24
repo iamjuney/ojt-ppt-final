@@ -35,8 +35,14 @@
 	</Slide>
 
 	<Slide animate>
-		<div class="flex flex-col h-[400px] items-center justify-center">
-			<img class="w-[400px] h-[400px] object-cover" src="qr_code.svg" alt="" />
+		<div
+			class="flex flex-col lg:h-[400px] h-[800px] items-center justify-center"
+		>
+			<img
+				class="lg:w-[400px] lg:h-[400px] w-[800px] h-[800px] object-cover"
+				src="qr_code.svg"
+				alt=""
+			/>
 		</div>
 	</Slide>
 
