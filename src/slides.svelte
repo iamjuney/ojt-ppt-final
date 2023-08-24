@@ -28,6 +28,12 @@
 		</section>
 	</Slide>
 
+	<Slide animate>
+		<div class="flex flex-col h-[400px] items-center justify-center">
+			<img class="w-[400px] h-[400px] object-cover" src="qr_code.svg" alt="" />
+		</div>
+	</Slide>
+
 	<Slide>
 		<p class="text-5xl text-teal-300 font-semibold">
 			Kung kaya mong gawin bukas, bakit mo pa gagawin ngayon?
@@ -200,7 +206,11 @@
 			</p>
 
 			<Stack>
-				<img src="team_call.png" class="mt-12 h-[24rem]" alt="" />
+				<img src="skype.png" class="mt-12 h-[24rem]" alt="" />
+
+				<Step>
+					<img src="team_call.png" class="mt-12 h-[24rem]" alt="" />
+				</Step>
 
 				<Step>
 					<img src="team_call2.png" class="mt-12 h-[24rem]" alt="" />
