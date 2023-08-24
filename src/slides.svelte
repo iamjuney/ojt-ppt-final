@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Presentation, Slide } from '@components'
+	import { Presentation, Slide, Stack, Step } from '@components'
 </script>
 
 <Presentation>
@@ -165,6 +165,12 @@
 
 	<Slide animate>
 		<div class="flex flex-col h-[400px] items-center justify-center">
+			<img src="tech_stack.png" class="mt-16 h-[28rem]" alt="" />
+		</div>
+	</Slide>
+
+	<Slide animate>
+		<div class="flex flex-col h-[400px] items-center justify-center">
 			<p class="text-lg text-gray-300 tracking-tight font-normal">
 				The Journey
 			</p>
@@ -191,51 +197,16 @@
 				Collaboration
 			</p>
 
-			<img src="team_call.png" class="mt-16 h-[28rem]" alt="" />
+			<Stack>
+				<img src="team_call.png" class="mt-16 h-[28rem]" alt="" />
+
+				<Step>
+					<img src="team_call2.png" class="mt-16 h-[28rem]" alt="" />
+				</Step>
+			</Stack>
+
 			<p class="text-4xl text-teal-300 tracking-tight font-extrabold mt-8">
 				Team Call
-			</p>
-		</div>
-	</Slide>
-
-	<Slide animate>
-		<div class="flex flex-col h-[400px] items-center justify-center">
-			<p class="text-lg text-gray-300 tracking-tight font-normal">
-				The Journey
-			</p>
-			<p class="text-6xl text-teal-300 tracking-tight font-extrabold">
-				Milestones
-			</p>
-		</div>
-	</Slide>
-
-	<Slide animate>
-		<div class="flex flex-col h-[400px] items-center justify-center">
-			<p class="text-lg text-gray-300 tracking-tight font-normal">Milestones</p>
-			<div
-				class="grid grid-cols-1 gap-8 mt-10 text-center lg:mt-24 sm:gap-x-8 md:grid-cols-3"
-			>
-				<div>
-					<h3 class="font-bold text-7xl">
-						<span class="text-teal-300"> 29 </span>
-					</h3>
-					<p class="mt-4 text-lg font-medium text-white">UI/UX Design</p>
-				</div>
-				<div>
-					<h3 class="font-bold text-7xl">
-						<span class="text-teal-300"> 27 </span>
-					</h3>
-					<p class="mt-4 text-lg font-medium text-white">Frontend</p>
-				</div>
-				<div>
-					<h3 class="font-bold text-7xl">
-						<span class="text-teal-300"> 14 </span>
-					</h3>
-					<p class="mt-4 text-lg font-medium text-white">Backend</p>
-				</div>
-			</div>
-			<p class="text-4xl text-teal-300 tracking-tight font-extrabold mt-24">
-				Tasks Completed
 			</p>
 		</div>
 	</Slide>
@@ -270,6 +241,50 @@
 
 	<Slide animate>
 		<div class="flex flex-col h-[400px] items-center justify-center">
+			<p class="text-lg text-gray-300 tracking-tight font-normal">
+				Achievements
+			</p>
+			<div
+				class="grid grid-cols-1 gap-8 mt-10 text-center lg:mt-24 sm:gap-x-8 md:grid-cols-3"
+			>
+				<div>
+					<h3 class="font-bold text-7xl">
+						<span class="text-teal-300"> 29 </span>
+					</h3>
+					<p class="mt-4 text-lg font-medium text-white">UI/UX Design</p>
+				</div>
+				<div>
+					<h3 class="font-bold text-7xl">
+						<span class="text-teal-300"> 27 </span>
+					</h3>
+					<p class="mt-4 text-lg font-medium text-white">Frontend</p>
+				</div>
+				<div>
+					<h3 class="font-bold text-7xl">
+						<span class="text-teal-300"> 14 </span>
+					</h3>
+					<p class="mt-4 text-lg font-medium text-white">Backend</p>
+				</div>
+			</div>
+			<p class="text-4xl text-teal-300 tracking-tight font-extrabold mt-24">
+				Tasks Completed
+			</p>
+		</div>
+	</Slide>
+
+	<Slide animate>
+		<div class="flex flex-col h-[400px] items-center justify-center">
+			<p class="text-lg text-gray-300 tracking-tight font-normal">
+				Achievements
+			</p>
+			<p class="text-6xl text-teal-300 tracking-tight font-extrabold mt-24">
+				All of us Became Team Leader
+			</p>
+		</div>
+	</Slide>
+
+	<Slide animate>
+		<div class="flex flex-col h-[400px] items-center justify-center">
 			<p class="text-lg text-gray-300 tracking-tight font-normal">Reflection</p>
 			<p class="text-6xl text-teal-300 tracking-tight font-extrabold">
 				Lessons Learned
@@ -283,6 +298,15 @@
 			<p class="text-6xl text-teal-300 tracking-tight font-extrabold">
 				Lessons Learned
 			</p>
+			<div class="text-2xl text-white tracking-tight text-left mt-8 space-y-4">
+				<p>‣ Real-World Application</p>
+				<p>‣ Adaptation to Technology</p>
+				<p>‣ Effective Communication</p>
+				<p>‣ Teamwork Dynamics</p>
+				<p>‣ Time Management</p>
+				<p>‣ Professionalism</p>
+				<p>‣ Resilience</p>
+			</div>
 		</div>
 	</Slide>
 
