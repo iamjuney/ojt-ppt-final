@@ -278,7 +278,7 @@
 				Achievements
 			</p>
 			<p class="text-6xl text-teal-300 tracking-tight font-extrabold mt-24">
-				All of us Became Team Leader
+				Most of us Became Team Leader
 			</p>
 		</div>
 	</Slide>
