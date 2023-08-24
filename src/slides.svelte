@@ -43,6 +43,9 @@
 				src="qr_code.svg"
 				alt=""
 			/>
+			<p class="text-4xl text-teal-300 font-semibold mt-4">
+				ojt-ppt-final.vercel.app
+			</p>
 		</div>
 	</Slide>
 
