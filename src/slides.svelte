@@ -261,7 +261,7 @@
 				</div>
 				<div>
 					<h3 class="font-bold text-7xl">
-						<span class="text-teal-300"> 14 </span>
+						<span class="text-teal-300"> 29 </span>
 					</h3>
 					<p class="mt-4 text-lg font-medium text-white">Backend</p>
 				</div>
