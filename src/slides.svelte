@@ -247,10 +247,14 @@
 				<Step>
 					<img src="team_call2.png" class="mt-12 h-[24rem]" alt="" />
 				</Step>
+
+				<Step>
+					<img src="live_share.png" class="mt-12 h-[24rem]" alt="" />
+				</Step>
 			</Stack>
 
 			<p class="text-4xl text-teal-300 tracking-tight font-extrabold mt-4">
-				Team Call
+				Skype and VsCode
 			</p>
 		</div>
 	</Slide>
