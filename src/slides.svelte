@@ -32,7 +32,7 @@
 		<p class="text-5xl text-teal-300 font-semibold">
 			Kung kaya mong gawin bukas, bakit mo pa gagawin ngayon?
 		</p>
-		<p class="mt-16 text-xl">– random guy</p>
+		<p class="mt-12 text-xl">– anonymous</p>
 	</Slide>
 
 	<Slide>
@@ -40,11 +40,11 @@
 			Any fool can write code that a computer can understand. Good programmers
 			write code that humans can understand.
 		</p>
-		<p class="mt-16 text-xl">– Martin Fowler</p>
+		<p class="mt-12 text-xl">– Martin Fowler</p>
 	</Slide>
 
 	<Slide animate>
-		<div class="flex flex-col h-[500px] items-center justify-center">
+		<div class="flex flex-col h-[400px] items-center justify-center">
 			<p class="text-6xl text-teal-300 tracking-tight font-extrabold">
 				Brief Overview
 			</p>
@@ -56,7 +56,7 @@
 			<p class="text-lg text-gray-300 tracking-tight font-normal">
 				Brief Overview
 			</p>
-			<img src="ico.png" alt="" />
+			<img src="ico.png" class="h-[10rem]" alt="" />
 			<p class="text-4xl text-teal-300 tracking-tight font-extrabold">
 				PIXEL8 Web Solutions & Consultancy
 			</p>
@@ -68,7 +68,7 @@
 			<p class="text-lg text-gray-300 tracking-tight font-normal">
 				Brief Overview
 			</p>
-			<img src="location.jpeg" class="mt-16 h-[28rem]" alt="" />
+			<img src="location.jpeg" class="mt-12 h-[24rem]" alt="" />
 			<p class="text-lg text-teal-300 tracking-tight font-extrabold mt-8">
 				Main Office: <span class="text-white"
 					>Corner Albay 647, Legazpi City, Albay</span
@@ -82,10 +82,12 @@
 			<p class="text-lg text-gray-300 tracking-tight font-normal">
 				Brief Overview
 			</p>
-			<p class="text-6xl text-teal-300 tracking-tight font-extrabold mt-16">
+			<p class="text-4xl text-teal-300 tracking-tight font-extrabold mt-12">
 				Services Offered
 			</p>
-			<div class="text-2xl text-white tracking-tight text-left lowercase mt-8">
+			<div
+				class="text-2xl text-white tracking-tight text-left lowercase mt-8 space-y-2"
+			>
 				<p>‣ WEBSITE DEVELOPMENT</p>
 				<p>‣ SEARCH ENGINE OPTIMIZATION</p>
 				<p>‣ SOCIAL MEDIA MARKETING</p>
@@ -112,7 +114,7 @@
 				The Opportunity
 			</p>
 
-			<img src="fb_post.jpg" class="mt-16 h-[28rem]" alt="" />
+			<img src="fb_post.jpg" class="mt-12 h-[24rem]" alt="" />
 			<p class="text-4xl text-teal-300 tracking-tight font-extrabold mt-8">
 				FB Post
 			</p>
@@ -129,7 +131,7 @@
 
 	<Slide>
 		<div class="flex flex-col h-[400px] items-center justify-center">
-			<img src="languages.png" class="mt-16 h-[28rem]" alt="" />
+			<img src="languages.png" class="mt-12 h-[28rem]" alt="" />
 		</div>
 	</Slide>
 
@@ -165,7 +167,7 @@
 
 	<Slide animate>
 		<div class="flex flex-col h-[400px] items-center justify-center">
-			<img src="tech_stack.png" class="mt-16 h-[28rem]" alt="" />
+			<img src="tech_stack.png" class="mt-12 h-[28rem]" alt="" />
 		</div>
 	</Slide>
 
@@ -198,10 +200,10 @@
 			</p>
 
 			<Stack>
-				<img src="team_call.png" class="mt-16 h-[28rem]" alt="" />
+				<img src="team_call.png" class="mt-12 h-[24rem]" alt="" />
 
 				<Step>
-					<img src="team_call2.png" class="mt-16 h-[28rem]" alt="" />
+					<img src="team_call2.png" class="mt-12 h-[24rem]" alt="" />
 				</Step>
 			</Stack>
 
@@ -278,7 +280,7 @@
 				Achievements
 			</p>
 			<p class="text-6xl text-teal-300 tracking-tight font-extrabold mt-24">
-				Most of us Became Team Leader
+				4 of us Became Team Leader
 			</p>
 		</div>
 	</Slide>
@@ -295,10 +297,10 @@
 	<Slide animate>
 		<div class="flex flex-col h-[400px] items-center justify-center">
 			<p class="text-lg text-gray-300 tracking-tight font-normal">Reflection</p>
-			<p class="text-6xl text-teal-300 tracking-tight font-extrabold">
+			<p class="text-4xl text-teal-300 tracking-tight font-extrabold mt-8">
 				Lessons Learned
 			</p>
-			<div class="text-2xl text-white tracking-tight text-left mt-8 space-y-4">
+			<div class="text-2xl text-white tracking-tight text-left mt-8 space-y-2">
 				<p>‣ Real-World Application</p>
 				<p>‣ Adaptation to Technology</p>
 				<p>‣ Effective Communication</p>
