@@ -1,5 +1,11 @@
 <script lang="ts">
-	import { Presentation, Slide, Stack, Step } from '@components'
+	import { Presentation, Slide, Stack, Step, Code } from '@components'
+
+	let count = 0
+
+	function handleClick() {
+		count += 1
+	}
 </script>
 
 <Presentation>
@@ -185,6 +191,32 @@
 			<p class="text-6xl text-teal-300 tracking-tight font-extrabold">
 				Learning Curve
 			</p>
+		</div>
+	</Slide>
+
+	<Slide animate>
+		<div class="mx-auto w-[800px] text-4xl">
+			<Code lang="html" lines="3-7|2,8|1-9">
+				{`
+            <template>
+                <q-card class="counter-card">
+                    <q-card-section>
+                        <span class="counter-value" @click="increment">
+                            clicks: {{ count }}
+                        </span>
+                    </q-card-section>
+                </q-card>
+            </template>
+        `}
+			</Code>
+		</div>
+		<div
+			data-id="circle"
+			class="mx-auto mt-8 w-[400px] rounded-2xl bg-gray-800"
+		>
+			<button on:click={handleClick}>
+				clicks: {count}
+			</button>
 		</div>
 	</Slide>
 
