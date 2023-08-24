@@ -217,7 +217,7 @@
 				</Step>
 			</Stack>
 
-			<p class="text-4xl text-teal-300 tracking-tight font-extrabold mt-8">
+			<p class="text-4xl text-teal-300 tracking-tight font-extrabold mt-4">
 				Team Call
 			</p>
 		</div>
