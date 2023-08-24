@@ -29,14 +29,14 @@
 	</Slide>
 
 	<Slide>
-		<p class="text-4xl text-teal-300 font-semibold">
+		<p class="text-5xl text-teal-300 font-semibold">
 			Kung kaya mong gawin bukas, bakit mo pa gagawin ngayon?
 		</p>
 		<p class="mt-16 text-xl">– random guy</p>
 	</Slide>
 
 	<Slide>
-		<p class="text-4xl text-teal-300 font-semibold">
+		<p class="text-5xl text-teal-300 font-semibold">
 			Any fool can write code that a computer can understand. Good programmers
 			write code that humans can understand.
 		</p>
@@ -113,7 +113,7 @@
 			</p>
 
 			<img src="fb_post.jpg" class="mt-16 h-[28rem]" alt="" />
-			<p class="text-6xl text-teal-300 tracking-tight font-extrabold mt-8">
+			<p class="text-4xl text-teal-300 tracking-tight font-extrabold mt-8">
 				FB Post
 			</p>
 		</div>
@@ -186,12 +186,56 @@
 	</Slide>
 
 	<Slide animate>
+		<div class="flex flex-col h-[400px] items-center justify-between">
+			<p class="text-lg text-gray-300 tracking-tight font-normal">
+				Collaboration
+			</p>
+
+			<img src="team_call.png" class="mt-16 h-[28rem]" alt="" />
+			<p class="text-4xl text-teal-300 tracking-tight font-extrabold mt-8">
+				Team Call
+			</p>
+		</div>
+	</Slide>
+
+	<Slide animate>
 		<div class="flex flex-col h-[400px] items-center justify-center">
 			<p class="text-lg text-gray-300 tracking-tight font-normal">
 				The Journey
 			</p>
 			<p class="text-6xl text-teal-300 tracking-tight font-extrabold">
 				Milestones
+			</p>
+		</div>
+	</Slide>
+
+	<Slide animate>
+		<div class="flex flex-col h-[400px] items-center justify-center">
+			<p class="text-lg text-gray-300 tracking-tight font-normal">Milestones</p>
+			<div
+				class="grid grid-cols-1 gap-8 mt-10 text-center lg:mt-24 sm:gap-x-8 md:grid-cols-3"
+			>
+				<div>
+					<h3 class="font-bold text-7xl">
+						<span class="text-teal-300"> 29 </span>
+					</h3>
+					<p class="mt-4 text-lg font-medium text-white">UI/UX Design</p>
+				</div>
+				<div>
+					<h3 class="font-bold text-7xl">
+						<span class="text-teal-300"> 27 </span>
+					</h3>
+					<p class="mt-4 text-lg font-medium text-white">Frontend</p>
+				</div>
+				<div>
+					<h3 class="font-bold text-7xl">
+						<span class="text-teal-300"> 14 </span>
+					</h3>
+					<p class="mt-4 text-lg font-medium text-white">Backend</p>
+				</div>
+			</div>
+			<p class="text-4xl text-teal-300 tracking-tight font-extrabold mt-24">
+				Tasks Completed
 			</p>
 		</div>
 	</Slide>
@@ -252,8 +296,4 @@
 	<Slide animate>
 		<img class="w-full h-full object-cover" src="advice.png" alt="" />
 	</Slide>
-
-	<!-- <Slide animate>
-		<img class="w-full h-full object-cover" src="meme.jpeg" alt="" />
-	</Slide> -->
 </Presentation>
